@@ -1,0 +1,211 @@
+/* HTML Tag Selectors */
+
+body {
+    font-family: Merriweather,sans-serif;
+    margin: 0;
+    text-align: center;
+    color:  #a79e8b;
+    background-color: #191f24;
+}
+
+h1 {
+    color: #f78e66;
+    font-family: "Sacramento", sans-serif;
+    font-size: 5.625em;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    color: #f78e66;
+}
+
+h3 {
+    color: #f78e66;
+}
+
+a {
+    color: #f78e66;
+}
+
+hr
+{
+    background-color: #101417;
+    border-color:  #507386;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 4px;
+    width: 10%;
+}
+
+/* Class Selectors */
+
+.TopContainer {
+    background-color: #101417;
+    height: 700px;
+    padding-top: 70px;
+    position: relative;
+}
+
+.MiddleContainer {
+    background-color: #191f24;
+} 
+
+.BottomContainer {
+    background-color: #f78e66;
+    padding: 40px;
+}
+
+.skill-row {
+    display: inline-block;
+    width: 50%;
+    margin: 50px auto 0 auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile {
+    display: inline-block;
+    width: 60%;
+
+}
+
+.TopCloud {
+    height: 70px;
+    position: absolute;
+    right: 180px;
+    top: 50px;
+    width: auto;
+}
+
+.BottomCloud {
+    height: 70px;
+    left: 180px;
+    position: absolute;
+    top: 250px;
+    width: auto;
+}
+
+.Mountain {
+    bottom: 0;
+    height: 500px;
+    left: 200px;
+    position: absolute;
+    text-align: center;
+}
+
+.Profile_Pic {
+    border-radius: 50%;
+    width: 250px;
+    margin: 50px auto 20px auto
+}
+
+.C_and_CPP-img {
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.Python-img {
+    border-radius: 50%;
+    width: 25%; 
+    float: right;
+    margin-left: 30px;
+}
+
+.description {
+    color: #f78e66;
+    font-weight: normal;
+    margin-top: 0.625rem;
+    position: relative;
+    top: 20px;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.MySkills {
+    margin-bottom: 0;
+}
+
+.contact-me {
+    margin: 50px;
+}
+
+
+.python-skill {
+    color: #f78e66;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
+
+.footer-link {
+    color: #EAF6F6;
+    margin: auto 10px;
+}
+
+.CONTACT_BUTTON {
+    background: #f78e66;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 3px;
+    line-height: 3px;
+    color: white;
+    font-family: Arial;
+    width: 137px;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 17px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .CONTACT_BUTTON:hover {
+    background: #5aa5a5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .dark-button {
+    position: absolute;
+    left: -30px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 16px;
+	border-radius: 15px;
+	border: 0px #3e2e2e solid;
+	background-color: #000000;
+	text-shadow: 1px 1px 1px #ffffff;
+	box-shadow: 2px -1px 13px -5px rgba(97, 97, 116, 0.45);
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+    text-decoration: none;
+}
+.dark-button:hover {
+	background-color: #3e2e2e;
+}
+.dark-button-icon {
+	padding: 7px 8px;
+	border-right: 1px solid rgba(255, 255, 255, 0.16);
+	box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset;
+}
+.dark-button-icon svg {
+	vertical-align: middle;
+	position: relative;
+	font-size: 19px;
+	left: 38px;
+}
+.dark-button-text {
+	padding: 7px 33px;
+}
